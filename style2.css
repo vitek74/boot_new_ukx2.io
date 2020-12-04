@@ -57,18 +57,27 @@ h1 {
 .article-dd {
     font-size: 20px;
     text-shadow: 1px 1px;
+	text-align: center;
 }
 
 .article-title {
     margin: 0 0 5px;
     font-size: 15px;
     color: #0d448e;
+	text-align: center;
 }
 
 .article-dt {
     color: darkred;
     font-size: 15px;
     text-shadow: 1px 1px;
+	text-align: center;
+}
+
+
+
+.nav {
+	font-size: 25px;
 }
 
 .container > div {
@@ -77,28 +86,41 @@ h1 {
 
 a {
     text-decoration: none;
+	
+	
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+	color: #cf0407;
 }
 
 #one {
     grid-column: 1/3;
     grid-row: 1/4;
+	
 }
 
 #two {
     grid-row: 1/3;
 	text-align: center;
+	background-color: #dfff3f;
 }
 
 #five {
     grid-column: 4/2;
+	
 }
 
 /*--меню--*/
 #seven {
     grid-row: 6/1;
     padding: 13px;
+	text-align: center;
 }
 
+#three {
+	background-color: #dfff3f;
 a {
     line-height: 35px;
 }
