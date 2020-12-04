@@ -1,27 +1,74 @@
 body {
     background-color: #fcf9c5;
+	font-family: Arial, Helvetica, sans-serif;
+	
 }
-
+		/*--шапка--*/
 .header {
     width: 99%;
     height: 50px;
-    background-image: url(/image/khudozhestvennyy.jpg);
-    margin: 5px 5px 5px 5px;
+    background-image: url(image/khudozhestvennyy.jpg);
     text-align: center;
+	vertical-align: 5px;
+    
     
 }
 
+
+		/*--оглавление--*/
 h1 {
-    color: beige;
+    color: #ffe6a8;
+	letter-spacing: 5px;
+	padding-top: 5px;
+	
+	
 }
 
-
+		/*--основной блок--*/
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 200px);
     background-color: #04030f;
     gap: 2px;
+}
+		/*----------------Блок №1-----------------*/
+.content-1 {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;	
+	font-size: 24px;
+}
+
+.img1 {
+	
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+
+.content-2 {
+	line-height: 150%;
+	color: #169405;
+	font-size: 24px;
+}
+		/*---------------- Блок №2 -----------------*/
+.article-dd {
+    font-size: 20px;
+    text-shadow: 1px 1px;
+}
+
+.article-title {
+    margin: 0 0 5px;
+    font-size: 15px;
+    color: #0d448e;
+}
+
+.article-dt {
+    color: darkred;
+    font-size: 15px;
+    text-shadow: 1px 1px;
 }
 
 .container > div {
@@ -39,6 +86,7 @@ a {
 
 #two {
     grid-row: 1/3;
+	text-align: center;
 }
 
 #five {
