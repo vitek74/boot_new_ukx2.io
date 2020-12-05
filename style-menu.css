@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+		/*-------Левый блок--------*/
+.leftcol{
+	 width:20%;
+	 float:left; 
+	 position:relative; 
+	 background-color: #fff7ea; 
+	 margin-left: 5px;
+	 margin-top: 10px;
+	 padding-left:10px;
+	 line-height: 300%;
+ }
+		/*-------Правый блок--------*/
+.maincol{
+	 background-color: #fff7ea;  
+	 position: relative; 
+	 width:78%;
+	 float:right; 
+	 margin-right: 5px;
+	 margin-top: 10px;
+ }
+
+
+  
+		/*-------Стилизация меню--------*/
+
+a {
+    text-decoration: none;
+}
+	  
+
+a:focus, a:hover {
+    text-decoration: underline;
+	color: #cf0407;
+}
+
+			/*-------Стилизация таблицы--------*/
+
+.table{
+    width: 100%;
+    border: 1px dashed #aaaaaa;
+    border-collapse: collapse;
+}
+
+.table th{
+    padding: 5px 10px;
+    text-align: left;
+    color: #3c46ff;
+    border: 1px dashed #aaaaaa;
+}
+
+.table td{
+    padding: 5px 10px;
+    border: 1px dashed #aaaaaa;
+}
+		/*---раскраска таблицы---*/
+		
+.table tbody tr:nth-child(even){
+    background-color: darkorange;
+}
+		/*---------------*/
+.footer {
+    padding: 10px;
+
+    background-color: #121212;
+
+    color: #fff;
+    text-align: right;
