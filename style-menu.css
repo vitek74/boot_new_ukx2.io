@@ -17,6 +17,7 @@ body {
 	 margin-top: 10px;
 	 padding-left:10px;
 	 line-height: 300%;
+	 position: fixed;
  }
 		/*-------Правый блок--------*/
 .maincol{
@@ -26,6 +27,7 @@ body {
 	 float:right; 
 	 margin-right: 5px;
 	 margin-top: 10px;
+	 
  }
 
 
@@ -48,6 +50,7 @@ a:focus, a:hover {
     width: 100%;
     border: 1px dashed #aaaaaa;
     border-collapse: collapse;
+	overflow-y: scroll;
 }
 
 .table th{
@@ -65,7 +68,25 @@ a:focus, a:hover {
 		
 .table tbody tr:nth-child(even){
     background-color: darkorange;
+}	
+
+		/*-------index.meny.html ссылка "подробнее"--------*/
+#rew {
+	font-size: 30px;
+	color: #1f66f5;
 }
+
+		/*-------index.many2.html--------*/
+#one {
+	text-align: center;
+	font-size: 30px;
+}
+#two {
+	text-align: center;
+	font-size: 30px;
+}
+	
+
 		/*---------------*/
 .footer {
     padding: 10px;
