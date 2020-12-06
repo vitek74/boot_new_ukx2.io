@@ -1,30 +1,31 @@
 body {
     background-color: #fcf9c5;
-	font-family: Arial, Helvetica, sans-serif;
-	
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-		/*--шапка--*/
+
+/*--шапка--*/
 .header {
     width: 99%;
     height: 50px;
     background-image: url(image/khudozhestvennyy.jpg);
     text-align: center;
-	vertical-align: 5px;
-    
-    
+    vertical-align: 5px;
+
+
 }
 
 
-		/*--оглавление--*/
+/*--оглавление--*/
 h1 {
     color: #ffe6a8;
-	letter-spacing: 5px;
-	padding-top: 5px;
-	
-	
+    letter-spacing: 5px;
+    padding-top: 5px;
+
+
 }
 
-		/*--основной блок--*/
+/*--основной блок--*/
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -32,46 +33,48 @@ h1 {
     background-color: #04030f;
     gap: 2px;
 }
-		/*----------------Блок №1-----------------*/
+
+/*----------------Блок №1-----------------*/
 .content-1 {
-	padding-top: 5px;
-	padding-left: 5px;
-	padding-bottom: 5px;
-	padding-right: 5px;	
-	font-size: 24px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    font-size: 24px;
 }
 
 .img1 {
-	
-	padding-left: 10px;
-	padding-top: 10px;
-	margin-right: 10px;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
 }
 
 .content-2 {
-	line-height: 150%;
-	color: #169405;
-	font-size: 24px;
+    line-height: 150%;
+    color: #169405;
+    font-size: 24px;
 }
-		/*---------------- Блок №2 (Председатель) -----------------*/
+
+/*---------------- Блок №2 (Председатель) -----------------*/
 .article-dd {
     font-size: 20px;
     text-shadow: 1px 1px;
-	text-align: center;
+    text-align: center;
 }
 
 .article-title {
     margin: 0 0 5px;
     font-size: 15px;
     color: #0d448e;
-	text-align: center;
+    text-align: center;
 }
 
 .article-dt {
     color: darkred;
     font-size: 15px;
     text-shadow: 1px 1px;
-	text-align: center;
+    text-align: center;
 }
 
 
@@ -79,22 +82,24 @@ h1 {
 /*----Стилизация меню----*/
 
 .nav {
-	font-size: 25px;
-	line-height: 10px;
+    font-size: 25px;
+    line-height: 10px;
 }
-  
+
 .menu {
-	line-height: 300%; /*----межстрочный интервал меню----*/
+    line-height: 300%;
+    /*----межстрочный интервал меню----*/
 }
 
 a {
     text-decoration: none;
 }
-	  
 
-a:focus, a:hover {
+
+a:focus,
+a:hover {
     text-decoration: underline;
-	color: #cf0407;
+    color: #cf0407;
 }
 
 .container > div {
@@ -106,35 +111,36 @@ a:focus, a:hover {
 #one {
     grid-column: 1/3;
     grid-row: 1/4;
-	
+
 }
 
 #two {
     grid-row: 1/3;
-	text-align: center;
-	background-color: #dfff3f;
+    text-align: center;
+    background-color: #dfff3f;
 }
 
 #five {
     grid-column: 4/2;
-	
+
 }
 
 /*--меню--*/
 #seven {
     grid-row: 6/1;
     padding: 13px;
-	
+
 }
 
 #three {
-	background-color: #dfff3f;
-	text-align: center;
-a {
-    line-height: 35px;
-}
-    
-    
+    background-color: #dfff3f;
+    text-align: center;
+
+    a {
+        line-height: 35px;
+    }
+
+
 
 
 }

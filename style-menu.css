@@ -4,90 +4,94 @@ body {
     font-family: Arial, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    
+
 }
 
-		/*-------Левый блок--------*/
-.leftcol{
-	 width:20%;
-	 float:left; 
-	 position:relative; 
-	 background-color: #fff7ea; 
-	 margin-left: 5px;
-	 margin-top: 10px;
-	 padding-left:10px;
-	 line-height: 300%;
-	 position: fixed;
- }
-		/*-------Правый блок--------*/
-.maincol{
-	 background-color: #fff7ea;  
-	 position: relative; 
-	 width:78%;
-	 float:right; 
-	 margin-right: 5px;
-	 margin-top: 10px;
-	 
- }
+/*-------Левый блок--------*/
+.leftcol {
+    width: 20%;
+    float: left;
+    position: relative;
+    background-color: #fff7ea;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    line-height: 300%;
+    position: fixed;
+}
+
+/*-------Правый блок--------*/
+.maincol {
+    background-color: #fff7ea;
+    position: relative;
+    width: 78%;
+    float: right;
+    margin-right: 5px;
+    margin-top: 10px;
+
+}
 
 
-  
-		/*-------Стилизация меню--------*/
+
+/*-------Стилизация меню--------*/
 
 a {
     text-decoration: none;
 }
-	  
 
-a:focus, a:hover {
+
+a:focus,
+a:hover {
     text-decoration: underline;
-	color: #cf0407;
+    color: #cf0407;
 }
 
-			/*-------Стилизация таблицы--------*/
+/*-------Стилизация таблицы--------*/
 
-.table{
+.table {
     width: 100%;
     border: 1px dashed #aaaaaa;
     border-collapse: collapse;
-	overflow-y: scroll;
+    overflow-y: scroll;
 }
 
-.table th{
+.table th {
     padding: 5px 10px;
     text-align: left;
     color: #3c46ff;
     border: 1px dashed #aaaaaa;
 }
 
-.table td{
+.table td {
     padding: 5px 10px;
     border: 1px dashed #aaaaaa;
 }
-		/*---раскраска таблицы---*/
-		
-.table tbody tr:nth-child(even){
+
+/*---раскраска таблицы---*/
+
+.table tbody tr:nth-child(even) {
     background-color: darkorange;
-}	
+}
 
-		/*-------index.meny.html ссылка "подробнее"--------*/
+/*-------index.meny.html ссылка "подробнее"--------*/
 #rew {
-	font-size: 30px;
-	color: #1f66f5;
+    font-size: 30px;
+    color: #1f66f5;
 }
 
-		/*-------index.many2.html--------*/
+/*-------index.many2.html--------*/
 #one {
-	text-align: center;
-	font-size: 30px;
+    text-align: center;
+    font-size: 30px;
 }
-#two {
-	text-align: center;
-	font-size: 30px;
-}
-	
 
-		/*---------------*/
+#two {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*---------------*/
 .footer {
     padding: 10px;
 
