@@ -31,6 +31,18 @@ body {
 
 }
 
+/*-------Таблица reconstruction3--------*/
+.maincol2 {
+    background-color: #fff7ea;
+    width: 100%;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.ved {
+ position: fixed;
+}
+
 
 
 /*-------Стилизация меню--------*/
