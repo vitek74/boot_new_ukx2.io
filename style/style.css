@@ -6,7 +6,7 @@ body {
     line-height: 1.5;
     color: #121212;
 
-    background: #F0F8FF ;
+    background: #F0F8FF;
 }
 
 *,
@@ -15,9 +15,15 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
+
 /*основное окно*/
 .page {
     width: 1200px;
@@ -30,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 
-.jpg{
+.jpg {
     display: block;
     max-width: 100%;
     height: auto;
@@ -119,8 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 .read-more {
     color: #1d7abe;
     text-decoration: none;
-    
-    
+
+
 }
 
 .read-more:hover {
@@ -134,23 +140,25 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     background-color: rgba(205, 227, 223, 0.93);
 }
+
 /*оглавление*/
 .sidebar-title {
     margin-bottom: 20px;
     font-size: 16px;
     color: #e02525;
 }
+
 /*картинка*/
 .sidebar-img {
     background: linear-gradient(to top, #fff, #eee);
-    
-    
+
+
 }
 
 .info {
     font-size: 18px;
 }
-    
+
 
 
 /*текст*/
@@ -194,104 +202,102 @@ a {
 }
 
 a {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	color: #ffffff;
-	padding: 16px 26px;
-	background: -moz-linear-gradient(
-		top,
-		#42aaff 0%,
-		#003366);
-	background: -webkit-gradient(
-		linear, left top, left bottom,
-		from(#99fff7),
-		to(#53c0ff));
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	border: 1px solid #003366;
-	-moz-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.5);
-	-webkit-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.5);
-	box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.5);
-	text-shadow:
-		0px -1px 0px rgba(000,000,000,0.7),
-		0px 1px 0px rgba(255,255,255,0.3);
-	display: inline-block;
-	text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 16px 26px;
+    background: -moz-linear-gradient(top,
+            #42aaff 0%,
+            #003366);
+    background: -webkit-gradient(linear, left top, left bottom,
+            from(#99fff7),
+            to(#53c0ff));
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #003366;
+    -moz-box-shadow:
+        0px 1px 3px rgba(000, 000, 000, 0.5),
+        inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(000, 000, 000, 0.5),
+        inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+    box-shadow:
+        0px 1px 3px rgba(000, 000, 000, 0.5),
+        inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+    text-shadow:
+        0px -1px 0px rgba(000, 000, 000, 0.7),
+        0px 1px 0px rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    text-decoration: none;
 }
+
 a:hover {
-	background: -moz-linear-gradient(
-		top,
-		#42aaff 0%,
-		#0d5aa7);
-	background: -webkit-gradient(
-		linear, left top, left bottom,
-		from(#42aaff),
-		to(#0d5aa7));
+    background: -moz-linear-gradient(top,
+            #42aaff 0%,
+            #0d5aa7);
+    background: -webkit-gradient(linear, left top, left bottom,
+            from(#42aaff),
+            to(#0d5aa7));
 }
+
 a:active {
-	background: -moz-linear-gradient(
-		top,
-		#003366 0%,
-		#42aaff);
-	background: -webkit-gradient(
-		linear, left top, left bottom,
-		from(#003366),
-		to(#42aaff));
+    background: -moz-linear-gradient(top,
+            #003366 0%,
+            #42aaff);
+    background: -webkit-gradient(linear, left top, left bottom,
+            from(#003366),
+            to(#42aaff));
 }
 
 .b {
     font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	color: #fafafa;
-	padding: 16px 26px;
-	display: inline-block;
-	text-decoration: none;
-	border-radius: 15px;
-	box-shadow: 0px 6px #27ae60;
-	background: #2ecc71;
+    font-size: 15px;
+    color: #fafafa;
+    padding: 16px 26px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 0px 6px #27ae60;
+    background: #2ecc71;
 }
 
 .b:hover {
-	background: #a11b07;
+    background: #a11b07;
 }
+
 .b:active {
-	position: relative;
-	top: 6px;
-	box-shadow: 0px 0px #23a33d;
-	background: #a11b07;
+    position: relative;
+    top: 6px;
+    box-shadow: 0px 0px #23a33d;
+    background: #a11b07;
 }
 
 .br {
     font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	color: #fafafa;
-	padding: 16px 26px;
-	display: inline-block;
-	text-decoration: none;
-	border-radius: 18px;
-	box-shadow: 0px 6px #27ae60;
-	background: #028f8a;
+    font-size: 15px;
+    color: #fafafa;
+    padding: 16px 26px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 18px;
+    box-shadow: 0px 6px #27ae60;
+    background: #028f8a;
 }
 
 .br:hover {
-	background: #a11b07;
+    background: #a11b07;
 }
+
 .br:active {
-	position: relative;
-	top: 6px;
-	box-shadow: 0px 0px #23a33d;
-	background: #23a33d;
+    position: relative;
+    top: 6px;
+    box-shadow: 0px 0px #23a33d;
+    background: #23a33d;
 }
 
 
- 
+
 
 
 /* Footer подвал */
@@ -308,48 +314,47 @@ a:active {
 
 /*Таблица должников*/
 
-    
-.table{
+
+.table {
     width: 100%;
     border: 1px dashed #aaaaaa;
     border-collapse: collapse;
 }
 
-.table th{
+.table th {
     padding: 5px 10px;
     text-align: left;
     color: #ef2828;
     border: 1px dashed #aaaaaa;
 }
 
-.table td{
+.table td {
     padding: 5px 10px;
     border: 1px dashed #aaaaaa;
 }
+
 /*раскраска таблицы*/
-.table tbody tr:nth-child(even){
+.table tbody tr:nth-child(even) {
     background-color: darkorange;
 }
 
 /*Правление*/
-.article-dd{
+.article-dd {
     font-size: 30px;
     text-shadow: 2px 2px;
 }
 
-.article-dt{
+.article-dt {
     color: darkred;
     font-size: 20px;
     text-shadow: 1px 1px;
 }
 
-.article-info{
-    
-}
+.article-info {}
 
 /*Инструкциии*/
 
-.title-instruction{
+.title-instruction {
     margin: 0;
 
     font-size: 34px;
@@ -358,29 +363,43 @@ a:active {
     margin-bottom: 30px;
 }
 
-.text-indent{
+.text-indent {
     text-align: center;
-    
-     font-family: "Times New Roman", Times, serif;
+
+    font-family: "Times New Roman", Times, serif;
 }
 
-.p{
-   font-size: 16px; 
-   margin-left: 10px;
-   margin-bottom: 20px; 
+.p {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
-.text-content{
-    font-size: 14px; 
-    margin-bottom: 10px; 
+.text-content {
+    font-size: 14px;
+    margin-bottom: 10px;
     margin-left: 20px;
     font-family: sans-serif;
 }
 
+/*Стилизация Отчет.Ревизионной комиссии index1.html*/
 
+.meny_rev {
+    
+    width: 17%;
+    position: fixed;
+    margin-left: 10px;
+    
+}
 
+.meny_rev a {
+    font-size: 15px;
+    padding: 5px 11px;
+    
+}
 
+.rev_text {
+    float: right;
+    width: 80%;
 
-
-
-
+}
