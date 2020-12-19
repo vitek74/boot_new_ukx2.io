@@ -160,7 +160,7 @@ h6 {
 /*-------------- Стилизация меню навигации для всех страниц----------- */
 
 .nav {
-    display: flex;
+    
     justify-content: center;
     text-align: center;
 }
