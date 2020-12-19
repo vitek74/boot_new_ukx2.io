@@ -24,7 +24,7 @@ h6 {
     margin: 0;
 }
 
-/*основное окно*/
+/*-----------------Главный блок для всех страниц-----------*/
 .page {
     width: 1200px;
     margin: 20px auto;
@@ -32,66 +32,21 @@ h6 {
     background-color: rgba(205, 227, 223, 0.93);
 }
 
+
+/*--------------------------Начало для index.html---------------------*/
+
+/*основной блок index.html*/
 .container {
     display: flex;
 }
 
+/*стилизация изображений index.html*/
 .jpg {
     display: block;
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
-
-/* Header */
-
-.header {
-    padding: 20px;
-
-    background-color: #121212;
-}
-
-.header-title {
-    margin: 0;
-
-    font-size: 24px;
-    color: #fff;
-    text-align: center;
-}
-
-.header-subtitle {
-    margin: 0;
-
-    font-size: 16px;
-    color: #56b6fb;
-    text-align: center;
-    font-weight: 400;
-}
-
-
-/* Nav */
-
-.nav {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.nav-link {
-    padding: 8px 12px;
-
-    color: #121212;
-    text-decoration: none;
-
-    transition: background-color 0.2s linear;
-}
-
-.nav-link:hover {
-    background-color: #eee;
-}
-
-
-/* Сontent */
 
 .sad-jpg {
     border-radius: 10px;
@@ -106,68 +61,8 @@ h6 {
     opacity: 1;
 }
 
-.content {
-    width: 800px;
-    padding: 0 20px;
-}
-
-.content-title {
-    margin: 0 0 15px;
-
-    font-size: 24px;
-    color: #ce2929;
-}
-
-.content-text {
-    margin-bottom: 20px;
-}
-
-.read-more {
-    color: #1d7abe;
-    text-decoration: none;
-
-
-}
-
-.read-more:hover {
-    text-decoration: underline;
-}
-
-/* Sidebar боковое окно */
-
-.sidebar {
-    width: 300px;
-    padding: 10px;
-    background-color: rgba(205, 227, 223, 0.93);
-}
-
-/*оглавление*/
-.sidebar-title {
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: #e02525;
-}
-
-/*картинка*/
-.sidebar-img {
-    background: linear-gradient(to top, #fff, #eee);
-
-
-}
-
-.info {
-    font-size: 18px;
-}
-
-
-
-/*текст*/
-.sidebar-text {
-    font-size: 17px;
-}
-
 /* Article основное окно */
-/*общие папаметры*/
+/*общие папаметры index.html*/
 .article {
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -197,6 +92,146 @@ h6 {
     color: #a4a4a4;
 }
 
+
+
+/*Правление*/
+.article-dd {
+    font-size: 30px;
+    text-shadow: 2px 2px;
+}
+
+.article-dt {
+    color: darkred;
+    font-size: 20px;
+    text-shadow: 1px 1px;
+}
+
+.article-info {}
+
+/*----------КОНЕЦ------------------- */
+
+/*----------стилизация контента------------------- */
+.content {
+    width: 800px;
+    padding: 0 20px;
+}
+
+.content-title {
+    margin: 0 0 15px;
+
+    font-size: 24px;
+    color: #ce2929;
+}
+
+.content-text {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*--------------------- Стилизация шапки для всех страниц --------------------*/
+
+.header {
+    padding: 20px;
+
+    background-color: #121212;
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-size: 16px;
+    color: #56b6fb;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/*-------------- Стилизация меню навигации для всех страниц----------- */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 8px 12px;
+
+    color: #121212;
+    text-decoration: none;
+
+    transition: background-color 0.2s linear;
+}
+
+.nav-link:hover {
+    background-color: #eee;
+}
+
+
+
+
+
+
+/*-----------?????????-------------*/
+
+.read-more {
+    color: #1d7abe;
+    text-decoration: none;
+
+
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar боковое окно???????? */
+
+.sidebar {
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(205, 227, 223, 0.93);
+}
+
+/*оглавление?????*/
+.sidebar-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #e02525;
+}
+
+/*картинка??????*/
+.sidebar-img {
+    background: linear-gradient(to top, #fff, #eee);
+
+
+}
+
+/*??????*/
+.info {
+    font-size: 18px;
+}
+
+
+
+/*текст*??????*/
+.sidebar-text {
+    font-size: 17px;
+}
+
+
+/*Общие стилизации ссылок*/
 a {
     text-decoration: none;
 }
@@ -250,20 +285,21 @@ a:active {
             to(#42aaff));
 }
 
+/*Стилизация ссылок*/
 .b {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #fafafa;
+    color: #1c1c1c;
     padding: 16px 26px;
     display: inline-block;
     text-decoration: none;
     border-radius: 15px;
     box-shadow: 0px 6px #27ae60;
-    background: #2ecc71;
+    background: #fff3cc;
 }
 
 .b:hover {
-    background: #a11b07;
+    background: #ffffff;
 }
 
 .b:active {
@@ -272,6 +308,8 @@ a:active {
     box-shadow: 0px 0px #23a33d;
     background: #a11b07;
 }
+
+
 
 .br {
     font-family: Arial, Helvetica, sans-serif;
@@ -338,19 +376,6 @@ a:active {
     background-color: darkorange;
 }
 
-/*Правление*/
-.article-dd {
-    font-size: 30px;
-    text-shadow: 2px 2px;
-}
-
-.article-dt {
-    color: darkred;
-    font-size: 20px;
-    text-shadow: 1px 1px;
-}
-
-.article-info {}
 
 /*Инструкциии*/
 
@@ -385,21 +410,44 @@ a:active {
 /*Стилизация Отчет.Ревизионной комиссии index1.html*/
 
 .meny_rev {
-    
+
     width: 17%;
     position: fixed;
     margin-left: 10px;
-    
+
 }
 
 .meny_rev a {
     font-size: 15px;
     padding: 5px 11px;
-    
+
 }
 
 .rev_text {
     float: right;
     width: 80%;
+    
 
 }
+
+.rev_text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rev_text tt {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
