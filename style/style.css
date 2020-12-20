@@ -32,6 +32,31 @@ h6 {
     background-color: rgba(205, 227, 223, 0.93);
 }
 
+/*--------------------- Стилизация шапки для всех страниц --------------------*/
+
+.header {
+    padding: 20px;
+    width: auto;
+    background-color: #121212;
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-size: 16px;
+    color: #56b6fb;
+    text-align: center;
+    font-weight: 400;
+}
+
 
 /*--------------------------Начало для index.html---------------------*/
 
@@ -131,39 +156,17 @@ h6 {
 
 
 
-/*--------------------- Стилизация шапки для всех страниц --------------------*/
 
-.header {
-    padding: 20px;
-
-    background-color: #121212;
-}
-
-.header-title {
-    margin: 0;
-
-    font-size: 24px;
-    color: #fff;
-    text-align: center;
-}
-
-.header-subtitle {
-    margin: 0;
-
-    font-size: 16px;
-    color: #56b6fb;
-    text-align: center;
-    font-weight: 400;
-}
 
 
 /*-------------- Стилизация меню навигации для всех страниц----------- */
 
 .nav {
-    
+
     justify-content: center;
     text-align: center;
 }
+
 /*Стилизация ссылок*/
 .nav-link {
     padding: 8px 12px;
@@ -323,7 +326,7 @@ h6 {
 .rev_text {
     float: right;
     width: 70%;
-    
+
 
 }
 
@@ -444,12 +447,3 @@ a {
 
 
 */
-
-
-
-
-
-
-
-
-
