@@ -35,9 +35,10 @@ h6 {
 /*--------------------- Стилизация шапки для всех страниц --------------------*/
 
 .header {
-    padding: 20px;
-    width: auto;
+    width: 930px;
+    margin: 20px auto;
     background-color: #121212;
+    border-radius: 18px;
 }
 
 .header-title {
@@ -240,10 +241,10 @@ h6 {
 
 /* Footer подвал */
 .footer {
-    padding: 10px;
-
+    width: 930px;
+    margin: 20px auto;
     background-color: #121212;
-
+    border-radius: 18px;
     color: #fff;
     text-align: center;
 
