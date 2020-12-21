@@ -26,7 +26,7 @@ h6 {
 
 /*-----------------Главный блок для всех страниц-----------*/
 .page {
-    width: 100%;
+    width: 1230px;
     margin: 20px auto;
 
     background-color: rgba(205, 227, 223, 0.93);
@@ -35,7 +35,7 @@ h6 {
 /*--------------------- Стилизация шапки для всех страниц --------------------*/
 
 .header {
-    width: 930px;
+    width: 1230px;
     margin: 20px auto;
     background-color: #121212;
     border-radius: 18px;
@@ -100,7 +100,7 @@ h6 {
 .article-title {
     margin: 0 0 5px;
 
-    font-size: 18px;
+    font-size: 15px;
     color: #0d448e;
 }
 
@@ -123,8 +123,8 @@ h6 {
 
 /*Правление*/
 .article-dd {
-    font-size: 30px;
-    text-shadow: 2px 2px;
+    font-size: 24px;
+    text-shadow: 1px 1px;
 }
 
 .article-dt {
