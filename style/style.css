@@ -39,7 +39,7 @@ h6 {
     margin: 20px auto;
     background-color: #121212;
     border-radius: 18px;
-    
+
 }
 
 .header-title {
@@ -72,7 +72,9 @@ h6 {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    
+   
+
 }
 
 .sad-jpg {
@@ -100,7 +102,7 @@ h6 {
 .article-title {
     margin: 0 0 5px;
 
-    font-size: 15px;
+    font-size: 18px;
     color: #0d448e;
 }
 
@@ -121,7 +123,7 @@ h6 {
 
 .blok3 {
     margin-left: 10px;
-    
+
 }
 
 .em {
@@ -256,7 +258,7 @@ h6 {
 
 /* Footer подвал */
 .footer {
-    width: 930px;
+    width: 1230px;
     margin: 20px auto;
     background-color: #121212;
     border-radius: 18px;
@@ -334,12 +336,13 @@ h6 {
 }
 
 .rev_home {
-   
-   margin-left: 29px;
+
+    margin-left: 29px;
     font-size: 25px;
 }
+
 .rev_text {
-   width: 100%;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
 
