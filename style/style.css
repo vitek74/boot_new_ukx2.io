@@ -119,6 +119,11 @@ h6 {
     color: #a4a4a4;
 }
 
+.blok3 {
+    margin-left: 10px;
+    
+}
+
 .em {
     font-size: 20px;
     color: darkgreen;
@@ -234,7 +239,7 @@ h6 {
 /*контент информации index.html*/
 .info {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 
