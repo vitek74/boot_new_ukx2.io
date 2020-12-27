@@ -1,5 +1,0 @@
-User-agent: YandexBot,Googlebot
-Crawl-delay: 1
-Host: ukx2nst.com
-Sitemap: http://ukx2nst.com
-
