@@ -23,6 +23,10 @@ h5,
 h6 {
     margin: 0;
 }
+h2 {
+    text-align: center;
+    background-color: #1b0ff7;
+}
 
 /*-----------------Главный блок для всех страниц-----------*/
 .page {
@@ -52,10 +56,11 @@ h6 {
 .header-subtitle {
     margin: 0;
 
-    font-size: 16px;
-    color: #56b6fb;
+    font-size: 19px;
+    color: #f5ffda;
     text-align: center;
     font-weight: 400;
+    background-color: #684dff;
 }
 
 
@@ -280,18 +285,22 @@ h6 {
 .table th {
     padding: 5px 10px;
     text-align: left;
-    color: #ef2828;
+    color: #1a0eff;
     border: 1px dashed #aaaaaa;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .table td {
     padding: 5px 10px;
     border: 1px dashed #aaaaaa;
+     font-weight: 700;
+     font-size: 17px;
 }
 
 /*раскраска таблицы*/
 .table tbody tr:nth-child(even) {
-    background-color: darkorange;
+    background-color: #5dffa1;
 }
 
 
@@ -318,6 +327,9 @@ h6 {
     margin-bottom: 20px;
 }
 
+.b {
+    font-size: 19px;
+}
 .text-content {
     font-size: 14px;
     margin-bottom: 10px;
