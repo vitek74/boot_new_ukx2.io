@@ -27,6 +27,11 @@ h2 {
     text-align: center;
     background-color: #1b0ff7;
 }
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #CD5C5C;
+}
 
 /*-----------------Главный блок для всех страниц-----------*/
 .page {
@@ -284,17 +289,17 @@ h2 {
 
 .table th {
     padding: 5px 10px;
-    text-align: left;
-    color: #1a0eff;
+    text-align: center;
+    color: #008B8B;
     border: 1px dashed #aaaaaa;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 20px;
 }
 
 .table td {
     padding: 5px 10px;
     border: 1px dashed #aaaaaa;
-     font-weight: 700;
+     font-weight: 500;
      font-size: 17px;
 }
 
@@ -325,6 +330,10 @@ p {
     font-size: 19px;
     margin-left: 10px;
     margin-bottom: 20px;
+    color: #4B0082;
+    text-align: center;
+    font-family:  Lucida Console;
+     font-weight: bold;
 }
 
 .b {
@@ -370,7 +379,29 @@ p {
     font-weight: 400;
 }
 
+/*index.time*/
 
+.info_1 {
+    width: 33%;
+    float: left;
+    
+    margin-top: 10px;
+    text-align: center;
+}
+
+.info_2 {
+    width: 33%;
+    float: right;
+    
+    margin-top: 10px;
+}
+
+.info_3 {
+    width: 34%;
+    float: left;
+    
+    margin-top: 10px;
+}
 
 /*-----------------------------стилизации ссылок*----------------------------*/
 /*a {
