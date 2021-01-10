@@ -36,6 +36,10 @@ h3 {
     color: #CD5C5C;
 }
 
+h4 {
+    
+    font-size: 19px;
+}
 /*-----------------Главный блок для всех страниц-----------*/
 .page {
     width: 1230px;
@@ -286,10 +290,14 @@ h3 {
 
 
 .table {
-    width: 100%;
+    width: 1230px;
     border: 1px dashed #aaaaaa;
     border-collapse: collapse;
 }
+
+/*index.rec2*/
+
+
 
 .table th {
     padding: 5px 10px;
@@ -297,7 +305,6 @@ h3 {
     color: #008B8B;
     border: 1px dashed #aaaaaa;
     font-weight: 600;
-    font-size: 20px;
 }
 
 .table td {
