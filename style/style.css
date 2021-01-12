@@ -37,9 +37,10 @@ h3 {
 }
 
 h4 {
-    
+
     font-size: 19px;
 }
+
 /*-----------------Главный блок для всех страниц-----------*/
 .page {
     width: 1230px;
@@ -67,13 +68,14 @@ h4 {
 
 .header-subtitle {
     margin: 0;
-
     font-size: 19px;
     color: #f5ffda;
     text-align: center;
     font-weight: 400;
     background-color: #684dff;
 }
+
+
 
 
 /*--------------------------Начало для index.html---------------------*/
@@ -270,11 +272,6 @@ h4 {
 }
 
 
-/*Общие стилизации ссылок*/
-
-
-
-/* Footer подвал */
 .footer {
     width: 1230px;
     margin: 20px auto;
@@ -282,6 +279,13 @@ h4 {
     border-radius: 18px;
     color: #fff;
     text-align: center;
+
+
+
+/*Общие стилизации ссылок*/
+
+
+
 
 
 }
@@ -302,7 +306,7 @@ h4 {
 .table th {
     padding: 5px 10px;
     text-align: center;
-    color: #008B8B;
+    color: #006400;
     border: 1px dashed #aaaaaa;
     font-weight: 600;
 }
@@ -343,7 +347,7 @@ p {
     margin-bottom: 20px;
     color: #4B0082;
     text-align: center;
-    
+
     font-weight: bold;
 }
 
@@ -418,7 +422,7 @@ p {
 
 /*Форма*/
 .form {
-    font-family: Verdana, sans-serif ;
+    font-family: Verdana, sans-serif;
     background: #66CDAA;
     color: #FF0000;
     width: 250px;
@@ -432,6 +436,139 @@ p {
     font-size: 15px;
     color: #000080;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*undex10.html(Забор)*/
+
+.page_10 {
+    width: 1230px;
+    margin: 20px auto;
+    background-color: rgba(205, 227, 223, 0.93);
+
+}
+
+.header_10 {
+    width: 1230px;
+    margin: 20px auto;
+    background-color: #121212;
+    border-radius: 11px;
+}
+
+.header-title_10 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.header-subtitle_10 {
+     margin: 0;
+    font-size: 19px;
+    color: #f5ffda;
+    text-align: center;
+    font-weight: 400;
+    background-color: #684dff;
+}
+
+
+.nav_10 {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 7px;
+
+}
+
+
+.nav-link_10 {
+    padding: 8px 8px;
+    font-size: 18px;
+    text-shadow: 1px 1px;
+    color: #225911;
+    text-decoration: none;
+}
+
+
+.nav-link_10:hover {
+    background-color: #1da1a3;
+}
+
+
+
+.table_10 {
+    width: 1230px;
+    border: 1px dashed #aaaaaa;
+    border-collapse: collapse;
+}
+
+
+.text_10 {
+    font-size: 20px;
+    margin: 12px;
+}
+
+
+
+/* Footer подвал */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-----------------------------стилизации ссылок*----------------------------*/
 /*a {
@@ -534,7 +671,4 @@ a {
     box-shadow: 0px 0px #23a33d;
     background: #23a33d;
 }
-
-
-
 */
