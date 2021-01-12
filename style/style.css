@@ -43,16 +43,16 @@ h4 {
 
 /*-----------------Главный блок для всех страниц-----------*/
 .page {
-    width: 1230px;
-    margin: 10px auto;
+    width: 1250px;
+    margin: 5px auto;
     background-color: rgba(205, 227, 223, 0.93);
 }
 
 /*--------------------- Стилизация шапки для всех страниц --------------------*/
 
 .header {
-    width: 1230px;
-    margin: 20px auto;
+    width: 1250px;
+    margin: 5px auto;
     background-color: #121212;
     border-radius: 5px;
 
