@@ -44,7 +44,7 @@ h4 {
 /*-----------------Главный блок для всех страниц-----------*/
 .page {
     width: 1230px;
-    margin: 20px auto;
+    margin: 10px auto;
     background-color: rgba(205, 227, 223, 0.93);
 }
 
