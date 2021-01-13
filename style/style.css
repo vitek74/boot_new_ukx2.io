@@ -282,7 +282,7 @@ h4 {
 
 
 
-/*Общие стилизации ссылок*/
+    /*Общие стилизации ссылок*/
 
 
 
@@ -415,7 +415,7 @@ p {
 
 /*index.rec2*/
 .rec2 {
-    
+
     text-align: center;
     font-size: 22px;
     margin-bottom: 10px;
@@ -428,7 +428,8 @@ p {
 .info_1 {
     width: 33%;
     float: left;
-    font-size: 19px;
+    font-size: 22px;
+    text-align: left;
     color: #DC143C;
     margin-top: 10px;
     text-align: center;
@@ -444,8 +445,15 @@ p {
 .info_3 {
     width: 34%;
     float: left;
-
+    color: #800000;
+    margin-left: 10px;
     margin-top: 10px;
+    font-size: 25px;
+}
+
+tt {
+    
+    color: #4682B4;
 }
 
 
@@ -497,7 +505,7 @@ p {
 
 
 .header-subtitle_10 {
-     margin: 0;
+    margin: 0;
     font-size: 19px;
     color: #f5ffda;
     text-align: center;
