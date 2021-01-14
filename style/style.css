@@ -428,22 +428,17 @@ p {
 .info_1 {
     width: 33%;
     float: left;
-    font-size: 22px;
-    text-align: left;
-    color: #DC143C;
+    font-size: 23px;
+    
+    color: #008080;
     margin-top: 10px;
     text-align: center;
 }
 
-.info_2 {
-    width: 33%;
-    float: right;
 
-    margin-top: 10px;
-}
 
 .info_3 {
-    width: 34%;
+    width: 65%;
     float: left;
     color: #800000;
     margin-left: 10px;
@@ -455,6 +450,7 @@ tt {
     
     color: #4682B4;
 }
+
 
 
 
