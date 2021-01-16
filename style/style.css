@@ -425,7 +425,7 @@ p {
     width: 33%;
     float: left;
     font-size: 23px;
-    
+
     color: #008080;
     margin-top: 10px;
     text-align: center;
@@ -443,7 +443,7 @@ p {
 }
 
 tt {
-    
+
     color: #4682B4;
 }
 
@@ -451,6 +451,7 @@ tt {
 
 
 
+/*index6.html*/
 
 
 
@@ -472,84 +473,84 @@ tt {
 
 
 
-/*undex10.html(Забор)*/
 
-.page_10 {
-    width: 1230px;
-    margin: 20px auto;
-    background-color: rgba(205, 227, 223, 0.93);
 
-}
 
-.header_10 {
-    width: 1230px;
-    margin: 20px auto;
-    background-color: #121212;
-    border-radius: 11px;
-}
 
-.header-title_10 {
-    margin: 0;
-    font-size: 24px;
-    color: #fff;
-    text-align: center;
-}
 
 
-.header-subtitle_10 {
-    margin: 0;
-    font-size: 19px;
-    color: #f5ffda;
-    text-align: center;
-    font-weight: 400;
-    background-color: #684dff;
-}
+    /*undex10.html(Забор)*/
 
+    .page_10 {
+        width: 1230px;
+        margin: 20px auto;
+        background-color: rgba(205, 227, 223, 0.93);
 
-.nav_10 {
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 7px;
+    }
 
-}
+    .header_10 {
+        width: 1230px;
+        margin: 20px auto;
+        background-color: #121212;
+        border-radius: 11px;
+    }
 
+    .header-title_10 {
+        margin: 0;
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+    }
 
-.nav-link_10 {
-    padding: 8px 8px;
-    font-size: 18px;
-    text-shadow: 1px 1px;
-    color: #225911;
-    text-decoration: none;
-}
 
+    .header-subtitle_10 {
+        margin: 0;
+        font-size: 19px;
+        color: #f5ffda;
+        text-align: center;
+        font-weight: 400;
+        background-color: #684dff;
+    }
 
-.nav-link_10:hover {
-    background-color: #1da1a3;
-}
 
+    .nav_10 {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 7px;
 
+    }
 
-.table_10 {
-    width: 1230px;
-    border: 1px dashed #aaaaaa;
-    border-collapse: collapse;
-}
 
+    .nav-link_10 {
+        padding: 8px 8px;
+        font-size: 18px;
+        text-shadow: 1px 1px;
+        color: #225911;
+        text-decoration: none;
+    }
 
-.text_10 {
-    font-size: 20px;
-    margin: 12px;
-}
 
+    .nav-link_10:hover {
+        background-color: #1da1a3;
+    }
 
 
-/* Footer подвал */
 
+    .table_10 {
+        width: 1230px;
+        border: 1px dashed #aaaaaa;
+        border-collapse: collapse;
+    }
 
 
+    .text_10 {
+        font-size: 20px;
+        margin: 12px;
+    }
 
 
 
+    /* Footer подвал */
 
 
 
@@ -578,8 +579,14 @@ tt {
 
 
 
-/*-----------------------------стилизации ссылок*----------------------------*/
-/*a {
+
+
+
+
+
+
+    /*-----------------------------стилизации ссылок*----------------------------*/
+    /*a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #ffffff;

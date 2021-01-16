@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #121212;
+
+    background: #F0F8FF;
+}
+
+
+/*Стилизация ссылок*/
+.nav-link {
+    padding: 8px 8px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    transition: background-color 0.2s linear;
+}
+
+.nav-link:hover {
+    background-color: #1da1a3;
+}
+
+
+
+.index6 {
+   margin-left: 10px;
+    margin-right: 10px;
+    background: #FFFAFA;
+    width: 1250px;
+    border: 1px solid #191970;
+    border-collapse: collapse;
+
+}
+
+.stop {
+ width: 1250px;
+    position: fixed;
+    text-align: center;
+    background: #0000CD;
+    color: #FFE4E1;
+
+}
+
+/*раскраска таблицы*/
+.index6 tbody tr:nth-child(even) {
+    background-color: #00FFFF;
+}
+
+
+
+
+
+.index6 th {
+    padding: 5px 10px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #191970;
+    font-weight: 600;
+}
+
+
+.index6 td {
+    padding: 5px 10px;
+    border: 1px solid #191970;
+    font-weight: 500;
+    font-size: 16px;
+}
