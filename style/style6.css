@@ -68,5 +68,21 @@ body {
     padding: 5px 10px;
     border: 1px solid #191970;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 13px;
+}
+
+p {
+    text-align: left; 
+    margin-left: 15px;
+    font-size: 22px;
+    
+}
+
+
+.end {
+    font-size: 18px;
+    color: #008080;
+    margin-top: 15px;
+    margin-left: 15px;
+    
 }
