@@ -7,7 +7,7 @@ body {
     line-height: 1.5;
     color: #121212;
 
-    background: #F0F8FF;
+    background: #E0FFFF;
 }
 
 
@@ -28,7 +28,7 @@ body {
 
 
 .index6 {
-   margin-left: 10px;
+    margin-left: 10px;
     margin-right: 10px;
     background: #FFFAFA;
     width: 1250px;
@@ -37,19 +37,45 @@ body {
 
 }
 
+
+.index6_1 {
+    margin-left: 26px;
+    margin-right: 10px;
+    background: #E0FFFF;
+    padding-left: 26px;
+    border: 1px solid #D2B48C;
+    border-collapse: collapse;
+
+
+}
+
 .stop {
- width: 1250px;
+    
+    width: 1250px;
     position: fixed;
     text-align: center;
     background: #FFE4C4;
-   
 
+
+
+}
+
+.stop1 {
+   
+    position: fixed;
+    text-align: center;
+    background: #E0FFFF;
 }
 
 /*раскраска таблицы*/
 .index6 tbody tr:nth-child(even) {
     background-color: #00FFFF;
 }
+
+.index6_1 tbody tr:nth-child(even) {
+    background-color: #00FFFF;
+}
+
 
 
 
@@ -63,6 +89,15 @@ body {
     font-weight: 600;
 }
 
+.index6_1 th {
+    padding: 5px 10px;
+    text-align: center;
+    color: #2F4F4F;
+    border: 1px solid #191970;
+    font-weight: 600;
+    font-size: 13px;
+}
+
 
 .index6 td {
     padding: 5px 10px;
@@ -71,11 +106,19 @@ body {
     font-size: 13px;
 }
 
+.index6_1 td {
+    padding: 5px 10px;
+    border: 1px solid #191970;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
 p {
-    text-align: left; 
+    text-align: left;
     margin-left: 15px;
     font-size: 22px;
-    
+
 }
 
 
@@ -84,5 +127,5 @@ p {
     color: #008080;
     margin-top: 15px;
     margin-left: 15px;
-    
+
 }
