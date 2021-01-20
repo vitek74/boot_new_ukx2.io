@@ -15,7 +15,7 @@ body {
 .nav-link {
     padding: 8px 8px;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #800080;
     text-decoration: none;
 
     transition: background-color 0.2s linear;
@@ -32,7 +32,7 @@ body {
     margin-right: 10px;
     background: #FFFAFA;
     width: 1250px;
-    border: 1px solid #191970;
+    border: 1px solid #D2B48C;
     border-collapse: collapse;
 
 }
@@ -41,8 +41,8 @@ body {
  width: 1250px;
     position: fixed;
     text-align: center;
-    background: #0000CD;
-    color: #FFE4E1;
+    background: #FFE4C4;
+   
 
 }
 
@@ -58,7 +58,7 @@ body {
 .index6 th {
     padding: 5px 10px;
     text-align: center;
-    color: #FFFFFF;
+    color: #2F4F4F;
     border: 1px solid #191970;
     font-weight: 600;
 }
