@@ -44,12 +44,15 @@ h4 {
 hr {
     border: solid;
 }
+
+
 /*-----------------Главный блок для всех страниц-----------*/
 .page {
     width: 1250px;
     margin: 5px auto;
     background-color: rgba(205, 227, 223, 0.93);
 }
+
 .qr {
     text-align: right;
 }
@@ -413,7 +416,7 @@ p {
 }
 
 .form_1 {
-  float: left;
+    float: left;
     font-family: Verdana, sans-serif;
     background: #0000FF;
     color: #EEE8AA;
@@ -427,12 +430,13 @@ p {
 .name_2 {
     font-size: 15px;
     color: #EEE8AA;
-     
-    
+
+
 }
+
 .name_1 {
     font-size: 15px;
-    color: #D8BFD8; 
+    color: #D8BFD8;
 }
 
 
@@ -517,25 +521,48 @@ input.error:focus, textarea.error:focus {
 
 /*index.time*/
 
+
+.content_1 {
+    
+}
+   
+
 .info_1 {
+   
+    width: 30%;
+    float: left;
+    font-size: 23px;
+    color: #000000;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.info_2 {
+
     width: 33%;
     float: left;
     font-size: 23px;
-
-    color: #008080;
+    
+    color: #000000;
     margin-top: 10px;
-    text-align: center;
+    text-align: center
 }
 
 
 
 .info_3 {
-    width: 65%;
+    width: 33%;
+    
     float: left;
-    color: #800000;
-    margin-left: 10px;
+    color: #000000;
+    padding-left: 12px;
     margin-top: 10px;
     font-size: 25px;
+}
+
+time_1 {
+    text-align: right;
+
 }
 
 tt {
@@ -544,116 +571,81 @@ tt {
 }
 
 .internet {
-    
-   float: left;
+
+    float: left;
 }
 
 
 
-    /*undex10.html(Забор)*/
+/*undex10.html(Забор)*/
 
-    .page_10 {
-        width: 1230px;
-        margin: 20px auto;
-        background-color: rgba(205, 227, 223, 0.93);
+.page_10 {
+    width: 1230px;
+    margin: 20px auto;
+    background-color: rgba(205, 227, 223, 0.93);
 
-    }
+}
 
-    .header_10 {
-        width: 1230px;
-        margin: 20px auto;
-        background-color: #121212;
-        border-radius: 11px;
-    }
+.header_10 {
+    width: 1230px;
+    margin: 20px auto;
+    background-color: #121212;
+    border-radius: 11px;
+}
 
-    .header-title_10 {
-        margin: 0;
-        font-size: 24px;
-        color: #fff;
-        text-align: center;
-    }
-
-
-    .header-subtitle_10 {
-        margin: 0;
-        font-size: 19px;
-        color: #f5ffda;
-        text-align: center;
-        font-weight: 400;
-        background-color: #684dff;
-    }
+.header-title_10 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
 
 
-    .nav_10 {
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 7px;
-
-    }
-
-
-    .nav-link_10 {
-        padding: 8px 8px;
-        font-size: 18px;
-        text-shadow: 1px 1px;
-        color: #225911;
-        text-decoration: none;
-    }
+.header-subtitle_10 {
+    margin: 0;
+    font-size: 19px;
+    color: #f5ffda;
+    text-align: center;
+    font-weight: 400;
+    background-color: #684dff;
+}
 
 
-    .nav-link_10:hover {
-        background-color: #1da1a3;
-    }
+.nav_10 {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 7px;
+
+}
 
 
+.nav-link_10 {
+    padding: 8px 8px;
+    font-size: 18px;
+    text-shadow: 1px 1px;
+    color: #225911;
+    text-decoration: none;
+}
 
-    .table_10 {
-        width: 1230px;
-        border: 1px dashed #aaaaaa;
-        border-collapse: collapse;
-    }
 
-
-    .text_10 {
-        font-size: 20px;
-        margin: 12px;
-    }
+.nav-link_10:hover {
+    background-color: #1da1a3;
+}
 
 
 
-    /* Footer подвал */
+.table_10 {
+    width: 1230px;
+    border: 1px dashed #aaaaaa;
+    border-collapse: collapse;
+}
+
+
+.text_10 {
+    font-size: 20px;
+    margin: 12px;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+/* Footer подвал */
