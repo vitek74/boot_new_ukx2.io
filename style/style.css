@@ -41,6 +41,9 @@ h4 {
     font-size: 19px;
 }
 
+hr {
+    border: solid;
+}
 /*-----------------Главный блок для всех страниц-----------*/
 .page {
     width: 1250px;
@@ -410,9 +413,10 @@ p {
 }
 
 .form_1 {
+  float: left;
     font-family: Verdana, sans-serif;
-    background: #66CDAA;
-    color: #FF0000;
+    background: #0000FF;
+    color: #EEE8AA;
     width: 250px;
     padding: 10px;
     font-size: 17px;
@@ -420,19 +424,22 @@ p {
     box-shadow: 0 4px 16px #ccc;
 }
 
-.name {
+.name_2 {
     font-size: 15px;
-    color: #000080;
+    color: #EEE8AA;
+     
+    
 }
 .name_1 {
     font-size: 15px;
-    color: #000080;
+    color: #D8BFD8;
+   
     
 }
 
 /*
 Форма обратной связи
-*/
+
 .inline {
    margin-left:30px;
    width:620px;
@@ -491,7 +498,6 @@ input.error:focus, textarea.error:focus {
 #send:hover {
     background:#979797;
 }
-/*
 Форма обратной связи
 */
 
