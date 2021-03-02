@@ -409,6 +409,17 @@ p {
     box-shadow: 0 4px 16px #ccc;
 }
 
+.form_1 {
+    font-family: Verdana, sans-serif;
+    background: #66CDAA;
+    color: #FF0000;
+    width: 250px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+}
+
 .name {
     font-size: 15px;
     color: #000080;
