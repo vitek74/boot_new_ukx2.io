@@ -432,6 +432,10 @@ p {
     box-shadow: 0 4px 16px #ccc;
 }
 
+.article-text {
+    text-align: right;
+}
+
 .name_2 {
     font-size: 15px;
     color: #EEE8AA;
