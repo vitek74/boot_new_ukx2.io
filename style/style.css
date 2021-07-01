@@ -1,0 +1,17 @@
+.article-title {
+    margin: 0 0 5px;
+
+    font-size: 18px;
+    color: #0d448e;
+}
+
+.em {
+    font-size: 20px;
+    color: darkgreen;
+}
+
+
+.article-dd {
+    font-size: 20px;
+    text-shadow: 1px 1px;
+}
