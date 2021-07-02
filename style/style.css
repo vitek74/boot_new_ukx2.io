@@ -1,3 +1,16 @@
+
+
+
+
+   .equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+}
+
 .article-title {
     margin: 0 0 5px;
 
@@ -11,7 +24,9 @@
 }
 
 
-.article-dd {
-    font-size: 20px;
-    text-shadow: 1px 1px;
+.text-center {
+    font-size: 17px;
+    
 }
+
+
