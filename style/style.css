@@ -11,6 +11,44 @@
     flex:1 0 auto;
 }
 
+
+.header {
+    width: auto;
+    margin: 5px auto;
+    background-color: #121212;
+    border-radius: 5px;
+
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+    font-size: 19px;
+    color: #f5ffda;
+    text-align: center;
+    font-weight: 400;
+    background-color: #684dff;
+}
+
+.info {
+    background-color:#1E90FF;
+    color: #E0FFFF;
+    font-size: 22px;
+   padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
+
+
 .article-title {
     margin: 0 0 5px;
 
@@ -28,5 +66,20 @@
     font-size: 17px;
     
 }
+
+
+.footer {
+    width:auto;
+    margin: 20px auto;
+    background-color: #121212;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer_v {
+    text-align: left;
+}
+
 
 
