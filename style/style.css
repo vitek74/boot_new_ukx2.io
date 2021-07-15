@@ -46,7 +46,27 @@
     border-radius: 5px;
 }
 
+.rev_home {
 
+    margin-left: 29px;
+    font-size: 25px;
+}
+.rev_text {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.rev_text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rev_text tt {
+    font-size: 19px;
+    font-weight: 400;
+}
 
 
 .article-title {
@@ -67,6 +87,12 @@
     
 }
 
+
+.table {
+    
+    border: 1px dashed #aaaaaa;
+    border-collapse: collapse;
+}
 
 .footer {
     width:auto;
